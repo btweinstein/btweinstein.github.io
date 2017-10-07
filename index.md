@@ -2,7 +2,10 @@
 layout: default
 ---
 
-![alt text](images/picture_of_me.png "Logo Title Text 1")
+<p align="center">
+<img src="images/picture_of_me.png" width="250">
+</p>
 
 
-Hello!
+Hello! Thanks for coming to my website. Here, you will find information about my many different 
+open-source comptuational and research projects.
