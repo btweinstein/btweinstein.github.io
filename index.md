@@ -9,3 +9,5 @@ layout: default
 
 Hello! Thanks for coming to my website. Here, you will find information about my many different 
 open-source comptuational and research projects.
+
+# Projects
