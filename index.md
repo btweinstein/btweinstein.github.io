@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align="center">
-<img src="images/picture_of_me.png" width="250">
+<img src="images/resized/picture_of_me.png" width="250">
 </p>
 
 
