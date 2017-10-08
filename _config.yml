@@ -11,3 +11,7 @@ linkedin_username: btweinstein
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-mentions
+  - jekyll-sitemap
