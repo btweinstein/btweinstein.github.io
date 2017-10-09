@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Analysis
-permalink: /data_analysis
+permalink: /computation/data_analysis
 ---
 
 ## Data Analysis
