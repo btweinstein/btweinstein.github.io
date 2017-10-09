@@ -11,3 +11,4 @@ gem 'github-pages', group: :jekyll_plugins
 # Plugins
 gem 'jekyll-mentions'
 gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'
