@@ -30,10 +30,11 @@ repository where I used Fiji, and open-source image processing library, to  extr
 illustrating where different strains of fluorescent microbes were located in a colony. 
 In the image below, the left was an experiment of mine where  multiple colors of *E. coli* expanded from 
 a dense droplet and segregated into one color locally. The image  on the left is experiment, and the image 
-on the right was the masks of each strain created using my script. 
+on the right was the masks of each strain created using my script. The words "eYFP", "eCFP", and "mCherry" 
+are labels for the strains corresponding to the fluroescent proteins that they produce.
 
  <p align="center">
-<img src="../images/resized/expansion_vs_mask_bigger_text.jpg" width="650">
+<img src="../images/resized/expansion_vs_mask_bigger_text.jpg" width="600">
 </p>
 
 After using Fiji to create the fluorescent masks, I imported the masks into python  and developed
@@ -57,6 +58,9 @@ new technique to shade ternary diagrams that worked better for my data).
 
 ### [expansion_powerlaw_fit](https://github.com/Range-Expansions/expansion_powerlaw_fit)
 
+As a physicist, I am often interested in studying fluctuations 
+around deterministic trends in time-traces. Based on the algorithm discussed in the materials and 
+methods of [this paper](http://www.pnas.org/cgi/doi/10.1073/pnas.0710150104)
 
 ### Determining the Growth Rate of Microbes
 
@@ -67,11 +71,18 @@ As the microbes grow, the media becomes  "murky" and more opaque; it is thus pos
 growth rate of microbes in culture by measuring how much light is absorbed by the media vs. time.
 
 My colleague @nwespe and I (Nichole is now an insight data science fellow!) wrote the Python package
-[OD_growth_finder](https://github.com/nwespe/OD_growth_finder) to 
+[OD_growth_finder](https://github.com/btweinstein/OD_growth_finder) to 
 extract growth rates of microbes from absorbance data. The package heavily utilized `pandas`
 and `numpy`, as modern machines to obtain absorbance data ("Plate Readers") obtain data from many growing
-cultures of microbes at once, resulting in data that is naturally tabular. 
+cultures of microbes at once, resulting in data that is naturally tabular. See the linked
+[IPython Notebook](https://github.com/btweinstein/OD_growth_finder/blob/master/OD_growth_analyzer_example.ipynb)
+for an idea what the package can do. Below is a plot I created using the package illustrating
+how adding an antibiotic (cyclohexamide) to a microbial culture will slow their growth and that,
+unsurprisingly, adding the drug in higher concentration slows their growth more.
 
+ <p align="center">
+<img src="../images/resized/cyclo_room.png" width="600">
+</p>
 
 ## Fluid Mechanics
 
