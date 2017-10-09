@@ -12,3 +12,5 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-mentions'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
+gem 'jekyll-menus'
+#gem 'jekyll-nested-menu-generator'

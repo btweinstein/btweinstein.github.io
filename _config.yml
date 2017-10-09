@@ -16,3 +16,4 @@ plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-menus
