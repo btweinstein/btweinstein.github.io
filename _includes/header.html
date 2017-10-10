@@ -14,10 +14,10 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+        {% for item in site.menus.header %}
+          <li class="menu-item-{{ loop.index }}">
+            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+          </li>
         {% endfor %}
       </div>
     </nav>

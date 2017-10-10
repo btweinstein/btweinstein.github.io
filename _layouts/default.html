@@ -8,17 +8,15 @@
 
     {% include header.html %}
 
-    <header>
-      <nav>
+    <nav>
         {% assign menu = site.menus.header %}
         {% include menu.html %}
       </nav>
-    </header>
 
     <div class="page-content">
-      <div class="wrapper">
+        <div class="wrapper">
         {{ content }}
-      </div>
+         </div>
     </div>
 
     {% include footer.html %}

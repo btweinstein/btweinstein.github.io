@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Computation
-permalink: /computation/
 menus: computation
 ---
 
