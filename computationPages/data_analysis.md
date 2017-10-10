@@ -2,6 +2,7 @@
 layout: page
 title: Data Analysis
 permalink: /computation/data_analysis
+exclude: true
 ---
 
 During my PhD, I've written thousands of IPython/Jupyter notebooks to analyze different types

@@ -2,6 +2,7 @@
 layout: page
 title: Scientific Computing
 menus: /computation/scientific_computing
+exclude: true
 ---
 
 During my PhD, I've written thousands of IPython/Jupyter notebooks to analyze different types
