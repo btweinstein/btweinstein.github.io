@@ -7,7 +7,4 @@ layout: page
 </p>
 
 
-Hello! Thanks for coming to my website. Here, you will find information about my many different 
-open-source comptuational and research projects.
-
-# Projects
+Hello! Thanks for coming to my website. Here, you will find information about my many different open-source computational projects on Github and my research.

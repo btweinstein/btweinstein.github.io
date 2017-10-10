@@ -5,8 +5,9 @@ permalink: /about/
 weight: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+5th year Harvard Applied Physics PhD student with a minor in Computational Science and Engineering (CSE). I will graduate in May and am seeking a job that will begin September 2018.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can see my full [CV](https://github.com/btweinstein/cv/blob/master/CV.pdf) 
+or [resume](https://github.com/btweinstein/cv/blob/master/resume.pdf)
+(if you want a more focused, less expansive document). To see my computational portfolio on Github, click the "Computation" tab above.
