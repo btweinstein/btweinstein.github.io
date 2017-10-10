@@ -5,15 +5,29 @@ permalink: /computation/
 weight: 2
 ---
 
-During my PhD, I've written thousands of IPython/Jupyter notebooks to analyze different types
-of data that I have encountered (i.e. images, tabular data, etc.). I have used many different python
-packages for data analysis, but I must often use
+## Github Projects
+
+During my PhD, I have written thousands of IPython/Jupyter notebooks and have created over 30 Github repositories to solve all sorts of interesting problems related to my research. In the links below, I discuss and illustrate the usage of several of my projects. The repositories that I created can roughly be separated into two categories:
+
+### 1. [Data Analysis Tools](./data_analysis) 
+
+These repositories helped me analyze and parse my experimental data. These repositories focus on extracting data from thousands of images and huge tabular datasets. In general, the experiments I studied displayed many stochastic features, so I had to analyze my data and extract probabilistic information such as correlations, various moments, etc. I believe such probabilistic analysis will be useful in my future career.
+
+### 2. [Scientific Computing Tools](./scientific_computing)
+
+These repositories focused on creating fast numerical simulations to help me understand the physics governing my experiments. In these repositories, I extensively utilized GPU computing and efficient single-threaded code. The [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) awarded me a $25,000 scholarship to further develop one of my favorite scientific computing projects, a [2-dimensional GPU-powered Lattice Boltzmann Fluid Mechanics Simulator](./scientific_computing). 
+
+## My Favorite Tools
+
+I have used many different scientific computing tools over the years but Python-based tools are consistently my favorite. Python is easy to use and is easy to link to faster languages such as C, C++, and OpenCL/CUDA. During my thesis, in virtually every project I used included some combination of the below tools (see the above repositories for concrete examples) :
 
 1. `IPython/Jupyter notebook`
-1. `matplotlib, seaborn`
-1. `numpy, scipy`
-1. `pandas`
+1. `matplotlib`, `seaborn`
+1. `numpy`, `scipy`
+1. `pandas` (tabular data)
 1. `scikit-image` (for image processing)
 1. `pymc3` (mostly for fitting parameters and estimating their likelihood with monte carlo techniques)
-1. `cython` and the gnu-scientific library `cython_gsl` (when I need my analysis to go fast)
-1. `PyOpenCL` (when I need my analysis to go *even* faster!)
+1. `cython` and the GNU Scientific Library `cython_gsl`  (when I need my analysis to go fast)
+1. `PyOpenCL` and `PyCuda` for GPU and multi-threaded computing (when I need my analysis to go *even* faster!)
+
+I am experienced C, C++, Java, Matlab, and Mathematica programmer as well.
