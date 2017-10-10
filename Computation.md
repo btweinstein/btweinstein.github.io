@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Computation
-menus: computation
+permalink: /computation
 ---
 
 During my PhD, I've written thousands of IPython/Jupyter notebooks to analyze different types

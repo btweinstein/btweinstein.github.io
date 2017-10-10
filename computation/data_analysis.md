@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Analysis
-menus: computation
+permalink: /computation/data_analysis
 ---
 
 During my PhD, I've written thousands of IPython/Jupyter notebooks to analyze different types

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scientific Computing
-menus: computation
+menus: /computation/scientific_computing
 ---
 
 During my PhD, I've written thousands of IPython/Jupyter notebooks to analyze different types
