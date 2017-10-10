@@ -25,7 +25,7 @@ on the right was the masks of each strain created using my script. The words "eY
 are labels for the strains corresponding to the fluroescent proteins that they produce.
 
  <p align="center">
-<img src="../images/resized/expansion_vs_mask_bigger_text.jpg" width="450">
+<img src="../images/resized/expansion_vs_mask_bigger_text.jpg" width="500">
 </p>
 
 After using Fiji to create the fluorescent masks, I imported the masks into python  and developed
@@ -38,7 +38,7 @@ to theoretical predictions.
 For example, in the linked [IPython notebook](https://github.com/Range-Expansions/range_expansion_image_analysis_python/blob/master/doc/domain_width_example_for_website.ipynb), I used my package to determine the growth of black sectors from experiments similar to that above; the average angular domain width vs. radius is plotted below.
 
  <p align="center">
-<img src="../images/resized/growth_of_domains.png" width="600">
+<img src="../images/resized/growth_of_domains.png" width="500">
 </p>
 
 Many interesting other plots can be created with the package. For example, I used it to create the figure below illustrating the average fraction of three of the above competing strains (red, yellow, and blue) as a function of colony radius during many experiments. The initial fraction composition is the red dot and the final composition is the blue one. As you can see, the 
@@ -87,10 +87,11 @@ I created a `cython` script that takes a time trace as input and then:
 3. Determines the average mean squared displacement from the linear regression over the window.
 4. Loop over all possible windows and apply steps 1-3. 
 
-This is basically a form of "Detrended Fluctuation Analysis. See the linked 
+This is basically a form of "Detrended Fluctuation Analysis." See the linked 
 [IPython Notebook](https://github.com/Range-Expansions/expansion_powerlaw_fit/blob/master/doc/powerlaw_fit_example_for_website.ipynb) 
-for an example of how I used the package to extract the superdiffusive behavior of a random walker in one dimension. Below, I show an image of a superdiffusive random walk and a quantification of how it fluctuated vs. window length using my cython package. I used this package
-to study how the domain walls separating the different colors in my range expansion experiments fluctuated.
+for an example of how I used the package to extract the superdiffusive behavior of a random walker in one dimension. 
+Below, I show an image of a superdiffusive random walk and a quantification of how it fluctuated vs. window length using my cython package. In practice, I used this package
+to study how the domain walls separating the different colors in my range expansion experiments fluctuated as the colony grew. 
 
  <p align="center">
 <img src="../images/resized/random_walk_example.png" width="350">

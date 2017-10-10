@@ -9,15 +9,15 @@ weight: 2
 
 During my PhD, I have written thousands of IPython/Jupyter notebooks and have created over 30 Github repositories to solve all sorts of interesting problems related to my research. In the links below, I discuss and illustrate the usage of several of my projects. The repositories that I created can roughly be separated into two categories:
 
-### 1. [Data Analysis Tools](./data_analysis) 
+### 1. [Data Analysis Repositories](./data_analysis) 
 
 These repositories helped me analyze and parse my experimental data. These repositories focus on extracting data from thousands of images and huge tabular datasets. In general, the experiments I studied displayed many stochastic features, so I had to analyze my data and extract probabilistic information such as correlations, various moments, etc. I believe such probabilistic analysis will be useful in my future career.
 
-### 2. [Scientific Computing Tools](./scientific_computing)
+### 2. [Scientific Computing Repositories](./scientific_computing)
 
 These repositories focused on creating fast numerical simulations to help me understand the physics governing my experiments. In these repositories, I extensively utilized GPU computing and efficient single-threaded code. The [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) awarded me a $25,000 scholarship to further develop one of my favorite scientific computing projects, a [2-dimensional GPU-powered Lattice Boltzmann Fluid Mechanics Simulator](./scientific_computing). 
 
-## My Favorite Tools
+## My Favorite Programming Tools
 
 I have used many different scientific computing tools over the years but Python-based tools are consistently my favorite. Python is easy to use and is easy to link to faster languages such as C, C++, and OpenCL/CUDA. During my thesis, in virtually every project I used included some combination of the below tools (see the above repositories for concrete examples) :
 

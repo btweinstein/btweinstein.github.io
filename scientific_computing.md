@@ -7,13 +7,13 @@ exclude: true
 
 My scientific computing projects have focused on both fluid mechanics, relevant to the second half of my thesis, or simulating microbial colony growth (i.e. interfacial growth due to autocatalytic reactions).
 
-## Fluid Mechanics
+## 1. Fluid Mechanics
 
 ### [An Award-Winning GPU-powered Lattice Boltzmann Simulation](https://github.com/btweinstein/2d-lb)
 
 As I knew the second half of my PhD would focus on fluid mechanics (as I was growing microbes on an ultra-viscous liquid), I audited Sauro Succi's computational fluid mechanics course in hopes that I could create experimentally relevant simulations.  Sauro played a pivotal role in the development of the Lattice Boltzmann technique, a relatively new mesocopic technique that excels when simulating multiphase fluid flow and flows in complex geometries (such as porous media). 
 
-Based on the material I had learned while auditing Sauro's class, I created my own GPU-powered 2-dimensional Lattice Boltzmann simulator in collaboration with @matheuscfernandes as the final project for CS205 (one of my required courses to obtain my minor in Computational Science and Engineering). Relative to naive Python, our GPU-powered simulation obtained a speedup of 650x, and, relative to single-threaded cython, a speedup of about 50x. Additional information about the Lattice Boltzmann technique, our simulation, and our procedure to optimize the speed of our package can be seen on the [**2d-LB website**](https://sites.google.com/site/latticeboltzmannmethodcs205/). The video illustrates a simulation of fluid flow around an obstacle at moderate Reynolds number, and the video below that is a rather humorous video that discusses our simulation in greater detail.
+Based on the material I had learned while auditing Sauro's class, I created my own GPU-powered 2-dimensional Lattice Boltzmann simulator in collaboration with @matheuscfernandes as the final project for CS205 (one of my required courses to obtain my minor in Computational Science and Engineering). Relative to naive Python, our GPU-powered simulation obtained a speedup of 650x, and, relative to single-threaded cython, a speedup of about 50x. Additional information about the Lattice Boltzmann technique, our simulation, and our procedure to optimize the speed of our package can be seen on the [**2d-LB website**](https://sites.google.com/site/latticeboltzmannmethodcs205/). The video below illustrates a simulation of fluid flow around an obstacle at moderate Reynolds number, and the rather humorous video below that discusses our simulation in greater detail.
 
 <p align="center">
 <iframe src="https://docs.google.com/file/d/0ByRswVj1mkw-eFp2WDFfUVdnT0U/preview" width="560" height="300"></iframe>
@@ -23,17 +23,22 @@ Based on the material I had learned while auditing Sauro's class, I created my o
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Py2hT0Y7gJ4" frameborder="0" allowfullscreen></iframe>
 </p>
 
-
 After completing the final project, I wrote a proposal to the [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) at Harvard asking them to fund work extending the simulation; I wanted to add real-time visualization of fluid flows with `vispy` and add the transport of passive scalars by fluid flow (a situation relevant to my experiments). IACS awarded me a $25,000 student scholarship to develop the simulation further and I completed those additions. This was one of my favorite projects during my PhD.
 
 
 
 
-### [stokesBuoyantSoluteFoam](https://github.com/btweinstein/stokesBuoyantSoluteFoam)
+### [Buoyant Flow in the Stokes Regime](https://github.com/btweinstein/stokesBuoyantSoluteFoam)
 
-## Random Walk Theory and Applications to Evolution
+The Lattice Boltzmann Technique is an *excellent* explict time-stepping technique; it works extremely well when dealing with problems of Reynolds number 0.01 to approximately 100,000. However, for smaller Reynolds numbers where the time-evolution of a flow can largely be ignored, i.e. the Stokes regime, more efficient techniques exist as they can quickly seek out the steady state flow in a non-physical manner (i.e. the numerical scheme can violate physical laws when approaching the steady state as long as the *final state* does *not* violate any laws; the Lattice Boltzmann technique obeys physical laws at every time step and is consequently more slow in this case).
 
-I authored most of the code in the "[Range Expansion](https://github.com/range-expansions)" Github organization. I will summarize some of the projects below.
+The experiments I worked with in the lab had Reynolds numbers as small as 1e-9 due to the extreme viscosity of the fluid I was working with and small experimental setup. I consequently learned how to use `OpenFOAM`, a standard open-source fluid mechanics solver, and created my own `OpenFoam`-based Stokes-Flow solver to model buoyant flows that our cells produced (the paper on this topic is in preparation). The below video illustrates the time-evolution of a radially-symmetric buoyant flow induced by cells (orange line) growing on the bottom of a closed container. The intensity of the colormap is the magnitude of the velocity field. 
+
+**INCLUDE VIDEO HERE**
+
+## 2. Random Walks and their Application to Microbial Evolutionary Dynamics
+
+The first half of my thesis focused on understanding how to use probabilistic techniques involving random walks, markov processes, etc. to gain insight into the stochastic evolutionary dynamics of microbes. I was particularly interested in   to I authored most of the code in the "[Range Expansion](https://github.com/range-expansions)" Github organization. I will summarize some of the projects below.
 
 ### [annihilating_coalescing_walks](https://github.com/Range-Expansions/annihilating_coalescing_walks)
 
