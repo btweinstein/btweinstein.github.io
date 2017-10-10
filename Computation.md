@@ -11,11 +11,11 @@ During my PhD, I have written thousands of IPython/Jupyter notebooks and have cr
 
 ### 1. [Data Analysis Repositories](./data_analysis) 
 
-These repositories helped me analyze and parse my experimental data. These repositories focus on extracting data from thousands of images and huge tabular datasets. In general, the experiments I studied displayed many stochastic features, so I had to analyze my data and extract probabilistic information such as correlations, various moments, etc. I believe such probabilistic analysis will be useful in my future career.
+These repositories helped me analyze and parse my experimental data. These repositories focus on extracting data from thousands of images and huge tabular datasets. In general, the experiments I studied displayed many stochastic features, so I had to analyze my data and extract probabilistic information such as correlations, various moments, etc. I believe such probabilistic analysis will be useful in my future career. Most of the repositories utilize object oriented code.
 
 ### 2. [Scientific Computing Repositories](./scientific_computing)
 
-These repositories focused on creating fast numerical simulations to help me understand the physics governing my experiments. In these repositories, I extensively utilized GPU computing and efficient single-threaded code. The [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) awarded me a $25,000 scholarship to further develop one of my favorite scientific computing projects, a [2-dimensional GPU-powered Lattice Boltzmann Fluid Mechanics Simulator](./scientific_computing). 
+These repositories focused on creating fast numerical simulations to help me understand the physics governing my experiments. In these repositories, I extensively utilized GPU computing and efficient single-threaded code. The [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) awarded me a $25,000 scholarship to further develop one of my favorite scientific computing projects, a [2-dimensional GPU-powered Lattice Boltzmann Fluid Mechanics Simulator](./scientific_computing). Like the above, I almost always use object-oriented code.
 
 ## My Favorite Programming Tools
 
