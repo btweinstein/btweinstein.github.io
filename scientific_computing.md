@@ -38,12 +38,11 @@ The experiments I worked with in the lab had Reynolds numbers as small as 1e-9 d
 
 ## 2. Random Walks and their Application to Microbial Evolutionary Dynamics
 
-The first half of my thesis focused on understanding how to use probabilistic techniques involving random walks, markov processes, etc. to gain insight into the stochastic evolutionary dynamics of microbes. I was particularly interested in   to I authored most of the code in the "[Range Expansion](https://github.com/range-expansions)" Github organization. I will summarize some of the projects below.
+The first half of my thesis focused on understanding how to use probabilistic techniques involving random walks, markov processes, etc. to gain insight into the stochastic evolutionary dynamics of microbes (evolution is quite random!). I was particularly interested in modeling the evolution of multiple growing strains in microbial colonies (represented by different colors in the images below). I authored most of the code in the "[Range Expansion](https://github.com/range-expansions)" Github organization and will summarize some of the projects below.
 
 ### [annihilating_coalescing_walks](https://github.com/Range-Expansions/annihilating_coalescing_walks)
 
-The Cython-based simulation package developed for my [first paper](https://www.biorxiv.org/content/early/2017/06/07/145631). 
-It simulates random walkers constrained on a ring and was calibrated to experiment.
+The `cython` and `cython-gsl`-based simulation package developed for my [first paper](https://www.biorxiv.org/content/early/2017/06/07/145631). It simulates random walkers constrained to the edge of an inflating ring that either annihilate or coalesce when they collide, mimicking the domain walls separating different strains of microbes in my colonies. In reality, the edge of a microbial colony is rough and randomly undulates; in this simulation, we treat the colony as perfectly smooth for simplicity. Using this simulation, I discovered an interesting data collapse that allowed me to precisely quantify extremely small growth rate differences between competing microbes (after coupling my simulation to experiment), and also predict the dynamics of an arbitrary number of competing strains with differing growth rates. The below image was created using this repository and illustrates that the model produces figures qualitatively similar to my experiments.
 
 <p align="center">
 <img src="../images/resized/annihilating_coalescing_random_walkers.png" width="600">
