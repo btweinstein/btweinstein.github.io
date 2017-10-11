@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Analysis
+title: Computation&#58 Data Analysis
 permalink: /computation/data_analysis
 exclude: true
 ---

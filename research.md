@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-weight: 3
+weight: 1
 ---
 
 Roughly speaking, my graduate thesis focused on understanding how transport impacts the evolution of stochastic fields. I studied this question in the context of biology. I learned how to work with stochastic differential equations and all sorts of probabilistic ideas and calculus. These were slightly harder, however; they were *spatial* stochastic differential equation!

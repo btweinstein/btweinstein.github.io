@@ -5,9 +5,14 @@ permalink: /computation/
 weight: 2
 ---
 
+<p align="center">
+<img src="../images/resized/mutational_meltdown.png" width="550">
+</p>
+
+
 ## Github Projects
 
-During my PhD, I have written thousands of IPython/Jupyter notebooks and have created over 30 Github repositories to solve all sorts of interesting problems related to my research. In the links below (blue), I discuss and illustrate the usage of several of my projects. The repositories that I created can roughly be separated into two categories:
+During my PhD, I have written hundreds of IPython/Jupyter notebooks and have created over 30 Github repositories to solve all sorts of interesting problems related to my research. In the links below (blue), I discuss and illustrate the usage of several of my projects. The repositories that I created can roughly be separated into two categories:
 
 ### 1. [Data Analysis Repositories](./data_analysis) 
 

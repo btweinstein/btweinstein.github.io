@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scientific Computing
+title: Computation&#58 Scientific Computing
 permalink: /computation/scientific_computing
 exclude: true
 ---
@@ -59,7 +59,7 @@ We again couple `cython` and `cython_gsl` to study an analog of the above simula
 
 ### [Bulgey Colonies](https://github.com/Range-Expansions/expansion_optics)
 
-We now *relax* the perfectly smooth assumption; faster growing strains now create a smooth bulge in the colony. How does this change the growth dynamics? I created a repository to simulate this scenario utilizing the the fast marching method (`[scikit-fmm](https://github.com/scikit-fmm/scikit-fmm)`). In the below movie, the blue strain expands faster than the green strain which expands faster than the red one. Beautiful shapes (that we see in experiment!) are created.
+We now *relax* the perfectly smooth assumption; faster growing strains now create a smooth bulge in the colony. How does this change the growth dynamics? I created a repository to simulate this scenario utilizing the the fast marching method ([`scikit-fmm`](https://github.com/scikit-fmm/scikit-fmm)). In the below movie, the blue strain expands faster than the green strain which expands faster than the red one. Beautiful shapes (that we see in experiment!) are created.
 
 <p align="center">
 <iframe src="https://drive.google.com/file/d/0ByRswVj1mkw-dHJCd0VBSkJjS0k/preview" width="600" height="300"></iframe>
