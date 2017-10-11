@@ -5,20 +5,20 @@ permalink: /research/
 weight: 1
 ---
 
-My PhD focused on experimentally, analytically, and numerically investigating how  different forms of transport impact the evolutionary dynamics of growing microbial colonies. As evolution is *random,* I extensively utilized probabilistic techniques to analytically model and numerically simulate my experiments. The GitHub repositories and IPython Notebooks that I developed to analyze my experimental data and create scientific simulations can be seen on the [Computation](/computation) page.
+
+Understanding how microbes evolve is important; we need to understand how to prevent microbes from developing antibiotic resistance and other dangerous mutations. My PhD focused on experimentally, analytically, and numerically describing the evolutionary dynamics of growing microbial colonies on solids and viscous liquids. As evolution is *random,* I extensively utilized probabilistic techniques to analytically model and numerically simulate my experiments. I also created hundreds of IPython notebooks to analyze my experimental data. The GitHub repositories and IPython Notebooks that I developed during my PhD can be seen on the [Computation](/computation) page.
 
 <p align="center">
 <img src="../images/resized/me_pipetting_cropped.jpg" width="300">
 </p>
 
-
-## Diffusive Growth and Evolution
+## Evolution on a Solid Surface
 
 ### Experimental Setup
 
-The standard experiment I conducted in the laboratory was quite simple. I took multiple identical strains of *E. coli* differing only by the fluroescent protein they produced (their color), mixed them together in growth media, and deposited the media onto the surface of a nutritious agar plate in a small circular droplet roughly 2mm in diameter. Once on the agar surface, the *E. coli* use the local nutrients to grow and proliferate (*E. coli* reproduce by creating clones of themselves, or budding; they do not have sex). The growth of a population into virgin territory is called a *range expansion*. 
+The standard experiment I conduct in the laboratory is quite simple. I take multiple identical strains of *E. coli* differing only by the fluroescent protein they produce (their color), mix the strains together in growth media, and deposit a droplet of media roughly 2mm in diameter onto the surface of a nutritious agar plate. Once on the agar surface, the *E. coli* use the local nutrients to grow and proliferate (*E. coli* reproduce by creating clones of themselves, or budding; they do not have sex). The growth of a population into virgin territory is called a *range expansion*. 
 
-The wiggling (i.e. diffusion) of the *E. coli* on the agar plate coupled with their growth results in the colony expanding. The movie below show the growth of three strains of E. coli on an agar plate after initial inoculation. Naively, one would expect that as the colony grows, the different strains of E. coli would remain mixed resulting in a blend of all the colors. Surprisingly, past a certain radius, the colony segregates into one local color, forming beautiful patterns. My PhD focused on understanding these patterns and consequently the evolutionary dynamics of microbial colonies. I created many GitHub repositories and IPython Notebooks to quantify the results of my experiments (see the [Data Analysis](/computation/data_analysis) page).
+The wiggling (i.e. diffusion) of the *E. coli* on the agar plate coupled with their growth results in the colony expanding. The movie below show the growth of three strains of E. coli on an agar plate after initial inoculation. Naively, one would expect that as the colony grows, the different strains of E. coli would remain mixed resulting in a blend of all the colors. Surprisingly, past a certain radius, the colony segregates into one local color, forming beautiful patterns. My PhD focused on understanding these patterns and consequently the resulting evolutionary dynamics of microbial colonies. I created many GitHub repositories and IPython Notebooks to quantify the results of these experiments (see the [Data Analysis](/computation/data_analysis) page).
 
 <p align="center">
 <iframe src="https://drive.google.com/file/d/0ByRswVj1mkw-N29QMHM1Q2lWTXc/preview" width="600" height="350"></iframe>

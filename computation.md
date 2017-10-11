@@ -20,7 +20,7 @@ These repositories helped me analyze and parse my experimental data. These repos
 
 ### 2. [Scientific Computing Repositories](./scientific_computing)
 
-These repositories focused on creating fast numerical simulations to help me understand the physics governing my experiments. In these repositories, I extensively utilized GPU computing and efficient single-threaded code. The [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) awarded me a $25,000 scholarship to further develop one of my favorite scientific computing projects, a [2-dimensional GPU-powered Lattice Boltzmann Fluid Mechanics Simulator](./scientific_computing). Like the above, I almost always use object-oriented code.
+These repositories focused on creating fast numerical simulations to help me understand the physics governing my experiments. In these repositories, I extensively utilized GPU computing and efficient single-threaded code. The Harvard [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) awarded me a $25,000 scholarship to further develop one of my favorite scientific computing projects, a [2-dimensional GPU-powered Lattice Boltzmann Fluid Mechanics Simulator](./scientific_computing). Like the above, I almost always use object-oriented code.
 
 ## My Favorite Programming Tools
 
