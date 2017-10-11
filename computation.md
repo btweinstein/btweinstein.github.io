@@ -6,7 +6,7 @@ weight: 2
 ---
 
 <p align="center">
-<img src="../images/resized/mutational_meltdown.png" width="550">
+<img src="../images/resized/mutational_meltdown.png" width="450">
 </p>
 
 
