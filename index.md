@@ -3,7 +3,7 @@ layout: page
 ---
 
 <p align="center">
-<img src="images/resized/picture_of_me.png" width="250">
+<img src="images/resized/me_at_the_desk_cropped.jpg" width="250">
 </p>
 
 

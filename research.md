@@ -7,6 +7,11 @@ weight: 1
 
 My PhD focused on experimentally, analytically, and numerically investigating how  different forms of transport impact the evolutionary dynamics of growing microbial colonies. As evolution is *random,* I extensively utilized probabilistic techniques to analytically model and numerically simulate my experiments. The GitHub repositories and IPython Notebooks that I developed to analyze my experimental data and create scientific simulations can be seen on the [Computation](/computation) page.
 
+<p align="center">
+<img src="../images/resized/me_pipetting_cropped.jpg" width="300">
+</p>
+
+
 ## Diffusive Growth and Evolution
 
 ### Experimental Setup
@@ -46,7 +51,7 @@ An image from a numerical simulation of the SKFPP equation that I created is sho
 <img src="../images/resized/random_undulation_expansion.png" width="300">
 </p>
 
-### My first paper: Many Strains with Differing Growth Velocities in an Expansion
+### My first paper: Many Colored Strains with Differing Growth Velocities in a Range Expansion
 
 See it [here](https://www.biorxiv.org/content/early/2017/06/07/145631). It is submitted and we are working on some revisions now.
 
@@ -63,6 +68,6 @@ To the best of my knowledge, nobody has created an easy-to-use, well-controlled 
 </p>
 
  
-We repeated the same protocol as before: we inoculated different colored strains of microbes on the surface of the fluid and watched them grow. For these experiments, we used the Baker's yeast **Saccharomyces cerevisiae**.
+We repeated the same protocol as before: we poured the viscous media in a petri dish and inoculated different colored strains of microbes on its surface; we then imaged the microbes growing. For these experiments, we used the Baker's yeast *Saccharomyces cerevisiae*. The media was so viscous that the deposited microbes settled to its bottom over the course of weeks; they effectively lived on the surface of the media.
 
- that cells could grow on the surface of; it was so viscous that cells settled to its bottom over the course of weeks.
+As expected, the morphology of growth was impacted by growing on a fluid rather than a solid. Surprisingly, however, colonies growing on our fluid  
