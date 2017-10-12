@@ -51,9 +51,9 @@ An image from a numerical simulation of the SKFPP equation that I created is sho
 <img src="../images/resized/random_undulation_expansion.png" width="300">
 </p>
 
-### Many Colored Strains with Differing Growth Velocities in a Range Expansion
+### Paper: Many Colored Strains with Differing Growth Velocities in a Range Expansion
 
-In my [first paper](https://www.biorxiv.org/content/early/2017/06/07/145631), I studied the evolutionary dynamics of many competing strains (colors) of *E. Coli* with differing expansion velocities. I applied both experimental and numerical techniques to investigate this problem and created a rigorous procedure to fit my numerical models (analagous to the SKFPP equation above) to experimental data. I showed that by utilizing a data collapse I observed numerically, I could fit new experimental parameters to unprecedented levels of accuracy and predict the dynamics of an arbitrary number of competing strains.
+In a [paper I wrote](https://www.biorxiv.org/content/early/2017/06/07/145631), I studied the evolutionary dynamics of many competing strains (colors) of *E. Coli* with differing expansion velocities. I applied both experimental and numerical techniques to investigate this problem and created a rigorous procedure to fit my numerical models (analagous to the SKFPP equation above) to experimental data. I showed that by utilizing a data collapse I observed numerically, I could fit new experimental parameters to unprecedented levels of accuracy and predict the dynamics of an arbitrary number of competing strains.
 
 ## Evolution on a Viscous Liquid's Surface
 
@@ -61,20 +61,7 @@ In my [first paper](https://www.biorxiv.org/content/early/2017/06/07/145631), I 
 
 Many organisms do not live on solid surfaces; they instead live in liquid environments, such as fish or phytoplankton in the ocean. In the ocean, a new form of transport is introduced: *advection*, or the transport of material by fluid flow. How does advection couple with the diffusive-induced growth discussed above to alter the evolutionary dynamics of populations?
 
-To the best of my knowledge, nobody has created an easy-to-use, well-controlled laboratory system to study this question. I teamed up with my colleague [Severine Atis](https://scholar.harvard.edu/atis) to solve this problem. We created a viscous fluid with a viscosity 20 times that of honey (roughly $$50 \hspace{1pt}  \mathrm{Pa} \cdot \mathrm{s}$$). The fluid was viscous enough that environmental perturbations (i.e. accidentally bumping the container) did not cause it to appreciably move. It was also viscous enough that we could pump it using syringe pumps in a controlled manner at the speed at which microbial colonies expanded (roughly 30 $$\mathrm{\mu m / hour}$$). An image of the viscous fluid slowly creeping down the side of a bottle can be seen below. 
-
-<p align="center">
-<img src="../images/resized/viscous_media.jpg" width="200">
-</p>
-
- 
-We repeated the same protocol as before: we poured the viscous media in a petri dish and inoculated different colored strains of microbes on its surface; we then imaged the microbes growing. For these experiments, we used the Baker's yeast *Saccharomyces cerevisiae*. The media was so viscous that the deposited microbes settled to its bottom over the course of weeks; they effectively lived on the surface of the media.
-
-As expected, the morphology of growth was impacted by growing on a fluid rather than a solid. Surprisingly, however, colonies growing on our fluid  dislayed a remarkable "rocketing" behavior in which inoculated colonies would create radial flows that causing them to explode. A video of an exploding colony can be seen below. The elapsed time can be seen in hours. 
-
-**ADD MOVIE HERE**
-
-Amazingly, a colony that expanded at the rate of $$30 \hspace{2pt} \mathrm{\mu m / hour}$$ on the surface of a solid solid somehow generated fluid flows when they living on the surface of a liquid that could drive its migration at almost 1000 $$\mathrm{\mu m / hour}$$. Several questions immediately emerge from watching this video: what is the source of the flow, and how does it impact the evolutionary dynamics of the colony? The next paper I am writing (in progress now) covers this topic. I have created a variety of fluid mechanics simulations to explore this topic in the [Scientific Computing](/computation/scientific_computing) page. 
+To the best of my knowledge, nobody has created an easy-to-use, well-controlled laboratory system to study this question. I teamed up with my colleague [Severine Atis](https://scholar.harvard.edu/atis) to solve this problem. We are writing a paper on our work now. I have created a variety of fluid mechanics simulations to explore this topic in the [Scientific Computing](/computation/scientific_computing) page. 
 
 ### Stochastic Models of Colony Growth with Advection
 
@@ -82,4 +69,4 @@ We can now take the same equation from before, the SKFPP equation, and add a vel
 
 $$ \frac{\partial}{\partial t} f(\vec{x},t) + \nabla \cdot (\vec{v} f) = D \nabla^2 f(\vec{x},t) + sf(1-f) + \sqrt{\frac{f(1-f)}{N}} \zeta(\vec{x}, t)$$
 
-This seemingly small change can *dramatically* alter the evolutionary dynamics of growing colonies; I will explore this in my next paper.
+This seemingly small change can *dramatically* alter the evolutionary dynamics of growing colonies; I will explore this in the paper I am writing with Severine. 
