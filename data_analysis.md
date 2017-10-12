@@ -10,7 +10,7 @@ I have authored several packages for my own data analysis needs in the laborator
 ## Image Analysis for Range Expansion Experiments
 
 I developed my own pipeline to process images and extract relevant information. This code
-was extensively used in my [first paper](https://www.biorxiv.org/content/early/2017/06/07/145631). The pipeline
+was extensively used in a [paper I wrote](https://www.biorxiv.org/content/early/2017/06/07/145631). The pipeline
 consists of two packages: 
 
 1. [range_expansion_image_analysis_fiji](https://github.com/Range-Expansions/range_expansion_image_analysis_fiji)
@@ -42,9 +42,8 @@ For example, in the linked [IPython notebook](https://github.com/Range-Expansion
 </p>
 
 Many interesting other plots can be created with the package. For example, I used it to create the figure below illustrating the average fraction of three of the above competing strains (red, yellow, and blue) as a function of colony radius during many experiments. The initial fraction composition is the red dot and the final composition is the blue one. As you can see, the 
-fraction trajectories are very stochastic. In my 
-[first paper](https://www.biorxiv.org/content/early/2017/06/07/145631), I developed a theory to predict the statistical properties of this motion. In order to create this plot, I helped to develop 
-[python-ternary](https://github.com/marcharper/python-ternary) (I created a 
+fraction trajectories are very stochastic. In my
+[paper](https://www.biorxiv.org/content/early/2017/06/07/145631), I developed a theory to predict the statistical properties of this motion. In order to create this plot, I helped to develop [python-ternary](https://github.com/marcharper/python-ternary) (I created a 
 new technique to shade ternary diagrams that worked better for my data).
 
  <p align="center">
