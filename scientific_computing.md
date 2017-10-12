@@ -5,13 +5,13 @@ permalink: /computation/scientific_computing
 exclude: true
 ---
 
-My scientific computing projects have focused on both fluid mechanics, relevant to the second half of my thesis, or simulating stochastic microbial colony growth and evolution.
+My scientific computing projects have focused on both fluid mechanics, relevant to the second half of my thesis, and simulating the stochastic evolution of microbial colonies.
 
 ## 1. Fluid Mechanics
 
 ### [An Award-Winning GPU-powered Lattice Boltzmann Simulation](https://github.com/btweinstein/2d-lb)
 
-As I knew the second half of my PhD would focus on fluid mechanics (as I was growing microbes on an ultra-viscous liquid), I audited Sauro Succi's computational fluid mechanics course in hopes that I could create experimentally relevant simulations.  Sauro played a pivotal role in the development of the Lattice Boltzmann technique, a relatively new mesocopic technique that excels when simulating multiphase fluid flow and flows in complex geometries (such as porous media). 
+As I knew the second half of my PhD would focus on fluid mechanics (as I was growing microbes on an ultra-viscous liquid), I audited Sauro Succi's computational fluid mechanics course in hopes that I could create experimentally relevant simulations. Sauro played a pivotal role in the development of the Lattice Boltzmann technique, a relatively new mesocopic technique that excels when simulating multiphase fluid flow and flows in complex geometries (such as porous media). 
 
 Based on the material I had learned while auditing Sauro's class, I created my own GPU-powered 2-dimensional Lattice Boltzmann simulator in collaboration with @matheuscfernandes as the final project for CS205 (one of my required courses to obtain my minor in Computational Science and Engineering). Relative to naive Python, our GPU-powered simulation obtained a speedup of 650x, and, relative to single-threaded cython, a speedup of about 50x. Additional information about the Lattice Boltzmann technique, our simulation, and our procedure to optimize the speed of our package can be seen on the [**2d-LB website**](https://sites.google.com/site/latticeboltzmannmethodcs205/). The video below illustrates a simulation of fluid flow around an obstacle at moderate Reynolds number, and the rather humorous video below that discusses our simulation in greater detail. The IPython notebook used to create the video is linked [here](https://github.com/btweinstein/2d-lb/blob/master/docs/cs205_movie.ipynb). 
 
@@ -23,9 +23,7 @@ Based on the material I had learned while auditing Sauro's class, I created my o
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Py2hT0Y7gJ4" frameborder="0" allowfullscreen></iframe>
 </p>
 
-After completing the final project, I wrote a proposal to the [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) at Harvard asking them to fund work extending the simulation; I wanted to add real-time visualization of fluid flows with `vispy` and add the transport of passive scalars by fluid flow (a situation relevant to my experiments). IACS awarded me a $25,000 student scholarship to develop the simulation further and I completed those additions. This was one of my favorite projects during my PhD.
-
-
+After completing the final project for CS205, I wrote a proposal to the [Institute for Applied Computational Sciences](https://iacs.seas.harvard.edu/) at Harvard asking them to fund work extending the simulation; I wanted to add real-time visualization of fluid flows with `vispy` (`OpenGL`) and add the transport of passive scalars by fluid flow (a situation relevant to my experiments). IACS awarded me a $25,000 student scholarship and I completed those additions. This was one of my favorite projects during my PhD.
 
 
 ### [Buoyant Flow in the Stokes Regime](https://github.com/btweinstein/stokesBuoyantSoluteFoam)

@@ -58,9 +58,7 @@ See the linked[IPython Notebook](https://github.com/btweinstein/OD_growth_finder
 
 ## [Extracting Fluctuation Properties from Time Traces](https://github.com/Range-Expansions/expansion_powerlaw_fit)
 
-As a physicist, I am often interested in studying fluctuations around deterministic trends in time-traces. 
-Based on the algorithm discussed in the materials and methods of [this paper](http://www.pnas.org/cgi/doi/10.1073/pnas.0710150104),
-I created a `cython` script that takes a time trace as input and then:
+As a physicist, I am often interested in studying fluctuations around deterministic trends in time-traces.  Based on the algorithm discussed in the materials and methods of [this paper](http://www.pnas.org/cgi/doi/10.1073/pnas.0710150104), I created a `cython` script that takes a time trace as input and then:
 
 1. Creates a window over a given time interval
 2. Uses linear regression (using the `cython_gsl` package) to fit the deterministic motion of data over the window.
@@ -68,10 +66,7 @@ I created a `cython` script that takes a time trace as input and then:
 4. Loop over all possible windows and apply steps 1-3. 
 
 This is basically a form of "Detrended Fluctuation Analysis." See the linked 
-[IPython Notebook](https://github.com/Range-Expansions/expansion_powerlaw_fit/blob/master/doc/powerlaw_fit_example_for_website.ipynb) 
-for an example of how I used the package to extract the superdiffusive behavior of a random walker in one dimension. 
-Below, I show an image of a superdiffusive random walk and a quantification of how it fluctuated vs. window length using my cython package. In practice, I used this package
-to study how the domain walls separating the different colors in my range expansion experiments fluctuated as the colony grew. 
+[IPython Notebook](https://github.com/Range-Expansions/expansion_powerlaw_fit/blob/master/doc/powerlaw_fit_example_for_website.ipynb) for an example of how I used the package to extract the superdiffusive behavior of a random walker in one dimension. Below, I show an image of a superdiffusive random walk and a quantification of how it fluctuated vs. window length using my cython package. In practice, I used this package to study how the domain walls separating the different colors in my range expansion experiments fluctuated as the colony grew. 
 
  <p align="center">
 <img src="../images/resized/random_walk_example.png" width="350">
