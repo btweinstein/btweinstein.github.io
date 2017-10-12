@@ -32,7 +32,9 @@ The Lattice Boltzmann Technique is an *excellent* explict time-stepping techniqu
 
 The experiments I worked with in the lab had Reynolds numbers as small as 1e-9 due to the extreme viscosity of the fluid I was working with and comparatively small experimental setup (on the order of 10cm). I consequently learned how to use `OpenFOAM`, a standard open-source fluid mechanics solver, and created my own `OpenFOAM`-based Stokes-Flow solver to model buoyant flows that our cells produced (the paper on this topic is in preparation). The below video illustrates the time-evolution of a radially-symmetric buoyant flow induced by cells (orange line) growing on the bottom of a closed container. The intensity of the colormap is the magnitude of the nutrients surrounding the cells; as time progresses, the cells eat more nutrients and the color becomes darker. A characteristic "plume" opposing the direction of gravity is witnessed.
 
+<p align="center">
 <iframe src="https://drive.google.com/file/d/0ByRswVj1mkw-dTJuN2hjT1pudms/preview" width="600" height="300"></iframe>
+</p>
 
 ## 2. Random Walks and their Application to Microbial Evolutionary Dynamics
 
