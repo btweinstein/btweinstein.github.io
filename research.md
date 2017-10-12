@@ -6,7 +6,7 @@ weight: 1
 ---
 
 
-Understanding how microbes evolve is important; we need to understand how to prevent microbes from developing antibiotic resistance and other dangerous mutations. Scientists are often interested in the growth of microbial colonies on solid surfaces; these colonies are often called "biofilms." My PhD focused on experimentally, analytically, and numerically describing the evolutionary dynamics of growing microbial colonies on solids and viscous liquids. As evolution is *random,* I extensively utilized probabilistic techniques to analytically model and numerically simulate my experiments. I also created hundreds of IPython notebooks to analyze my experimental data. The GitHub repositories and IPython Notebooks that I developed during my PhD can be seen on the [Computation](/computation) page.
+Understanding the evolution of microbes is important; we need to understand how to prevent them from developing antibiotic resistance and other dangerous mutations. My PhD focused on experimentally, analytically, and numerically describing the evolutionary dynamics of growing microbial colonies on solids and viscous liquids. Growing microbial colonies on solid surfaces are often called "biofilms." As evolution is *random,* I extensively utilized probabilistic techniques to analytically model and numerically simulate my experiments.  I also created hundreds of IPython notebooks to analyze my experimental data. The GitHub repositories and IPython Notebooks that I developed during my PhD can be seen on the [Computation](/computation) page.
 
 <p align="center">
 <img src="../images/resized/me_pipetting_cropped.jpg" width="300">
@@ -30,7 +30,7 @@ Similar patterns can be seen in different geometries. In the below movie, I agai
 <iframe src="https://drive.google.com/file/d/0ByRswVj1mkw-c3lYMHZ1b0JKUW8/preview" width="600" height="200"></iframe>
 </p>
 
-### Stochastic Models of Growth 
+### Stochastic Models of Colony Growth 
 
 Why do these patterns form? The *E. coli* in our experiments are not doing anything strange: they simply grow and divide at roughly the same rate. Ultimately, it can be shown that the patterns are created because the small population size of the thin growing layer at the front of the colony magnifies stochastic number fluctuations. 
 
@@ -76,7 +76,7 @@ As expected, the morphology of growth was impacted by growing on a fluid rather 
 
 Amazingly, a colony that expanded at the rate of $$30 \hspace{2pt} \mathrm{\mu m / hour}$$ on the surface of a solid solid somehow generated fluid flows when they living on the surface of a liquid that could drive its migration at almost 1000 $$\mathrm{\mu m / hour}$$. Several questions immediately emerge from watching this video: what is the source of the flow, and how does it impact the evolutionary dynamics of the colony? The next paper I am writing (in progress now) covers this topic. I have created a variety of fluid mechanics simulations to explore this topic in the [Scientific Computing](/computation/scientific_computing) page. 
 
-### Stochastic Models of Growth with Advection
+### Stochastic Models of Colony Growth with Advection
 
 We can now take the same equation from before, the SKFPP equation, and add a velocity field $$\vec{v}$$ that advects microbes:
 
