@@ -10,7 +10,7 @@ weight: 2
 </p>
 
 
-## Github Projects
+## GitHub Projects
 
 During my PhD, I wrote hundreds of IPython/Jupyter notebooks and created over 30 GitHub repositories to solve all sorts of interesting problems related to my research. In the links below (blue), I discuss and illustrate the usage of several of my projects. The repositories that I created can roughly be separated into two categories:
 
