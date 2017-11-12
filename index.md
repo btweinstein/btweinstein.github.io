@@ -13,4 +13,4 @@ I have two different resumes which can be accessed by clicking the following lin
 1. [Data Science Resume](documents/data_science_resume.pdf)
 2. [Engineering Resume](documents/engineering_resume.pdf) 
 
-I believe that I am well qualified to work either as a data scientists or as an engineer. To see my computational portfolio on GitHub, click the "Computation" tab above.
+I believe that I am well qualified to work either as a data scientist or as an engineer. To see my computational portfolio on GitHub, click the "Computation" tab above.
