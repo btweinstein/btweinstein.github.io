@@ -18,7 +18,7 @@ consists of two packages:
 The pipeline begins with the [range_expansion_image_analysis_fiji](https://github.com/Range-Expansions/range_expansion_image_analysis_fiji)
 repository where I used Fiji, and open-source image processing library, to  extract binary masks 
 illustrating where different strains of fluorescent microbes were located in a colony. 
-In the image below, the left was an experiment of mine where  multiple colors of *E. coli* expanded from a dense droplet and segregated into one color locally. The image  on the left is experiment, and the image on the right was the masks of each strain created using my script. The words "eYFP", "eCFP", and "mCherry" are labels for the strains corresponding to the fluroescent proteins that they produce.
+In the image below, the left was an experiment of mine where  multiple colors of *E. coli* expanded from a dense droplet and segregated into one color locally. The image  on the left is experiment, and the image on the right was the masks of each strain created using my script. The words "eYFP", "eCFP", and "mCherry" are labels for the strains corresponding to the fluorescent proteins that they produce.
 
 <p align="center">
 <img src="../images/resized/expansion_vs_mask_bigger_text.jpg" width="500">

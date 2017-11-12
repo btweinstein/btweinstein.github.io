@@ -16,9 +16,9 @@ Understanding the evolution of microbes is important; we need to prevent them fr
 
 ### Experimental Setup
 
-The standard experiment I conduct in the laboratory is quite simple. I take multiple identical strains of *E. coli* differing only by the fluroescent protein they produce (their color), mix the strains together in liquid growth media, and deposit a droplet of the media roughly 2mm in diameter onto the surface of a nutritious agar plate. Once on the agar surface, the *E. coli* use the local nutrients to grow and proliferate (*E. coli* reproduce by creating clones of themselves, or budding; they do not have sex). The growth of a population into virgin territory is called a *range expansion*. 
+The standard experiment I conduct in the laboratory is quite simple. I take multiple identical strains of *E. coli* differing only by the fluorescent protein they produce (their color), mix the strains together in liquid growth media, and deposit a droplet of the media roughly 2mm in diameter onto the surface of a nutritious agar plate. Once on the agar surface, the *E. coli* use the local nutrients to grow and proliferate (*E. coli* reproduce by creating clones of themselves, or budding; they do not have sex). The growth of a population into virgin territory is called a *range expansion*. 
 
-The wiggling (i.e. diffusion) of the *E. coli* on the agar plate coupled with their growth results in the colony expanding. The movie below show the growth of three strains of E. coli on an agar plate after initial inoculation. Naively, one would expect that as the colony grows, the different strains of E. coli would remain mixed resulting in a blend of all the colors. Surprisingly, past a certain radius, the colony segregates into one local color, forming beautiful patterns. My PhD focused on understanding these patterns and the resulting microbial colony evolutionary dynamics. I created many GitHub repositories and IPython Notebooks to quantify the results of these experiments (see the [Data Analysis](/computation/data_analysis) page).
+The wiggling (i.e. diffusion) of the *E. coli* on the agar plate coupled with their growth results in the colony expanding. The movie below show the growth of three strains of *E. coli* on an agar plate after initial inoculation. Naively, one would expect that as the colony grows, the different strains of *E. coli* would remain mixed resulting in a blend of all the colors. Surprisingly, past a certain radius, the colony segregates into one local color, forming beautiful patterns. My PhD focused on understanding these patterns and the resulting microbial colony evolutionary dynamics. I created many GitHub repositories and IPython Notebooks to quantify the results of these experiments (see the [Data Analysis](/computation/data_analysis) page).
 
 <p align="center">
 <iframe src="https://drive.google.com/file/d/0ByRswVj1mkw-N29QMHM1Q2lWTXc/preview" width="600" height="350"></iframe>
@@ -42,7 +42,7 @@ $$f$$ is the population density of one of the two strains and is a function of s
 
 $$\langle \zeta(\vec{x},t) \zeta(\vec{x}',t') \rangle = \delta(\vec{x} - \vec{x}') \delta(t - t')$$
 
-As $$N$$ decreases, i.e. the growing colony layer becomes more thin, the stochastic term on the far right becomes larger and larger. If stochastic term on the far right is large, fluctuations in the local population density of a certain strain color will be large, and the absorbing points $$f=0$$ or $$f=1$$ will be randomly reached, resulting in the total dominance or exctinction of a color locally. 
+As $$N$$ decreases, i.e. the growing colony layer becomes more thin, the stochastic term on the far right becomes larger and larger. If stochastic term on the far right is large, fluctuations in the local population density of a certain strain color will be large, and the absorbing points $$f=0$$ or $$f=1$$ will be randomly reached, resulting in the total dominance or extinction of a color locally. 
 
 
 An image from a numerical simulation of the SKFPP equation that I created is shown below. Throughout my PhD, I used this equation and various analogs to simulate my experiments; my simulation GitHub repositories can seen in the [Scientific Computing](/computation/scientific_computing) page. The SKFPP equation is trickier to work with than typical stochastic differential equations because of the *spatial diffusion* term ($$D$$); the local growth and competition between the strains is coupled with their diffusive transport. 
@@ -53,7 +53,7 @@ An image from a numerical simulation of the SKFPP equation that I created is sho
 
 ### Paper: Many Colored Strains with Differing Growth Velocities in a Range Expansion
 
-In a [paper I wrote](https://www.biorxiv.org/content/early/2017/06/07/145631), I studied the evolutionary dynamics of many competing strains (colors) of *E. Coli* with differing expansion velocities. I applied both experimental and numerical techniques to investigate this problem and created a rigorous procedure to fit my numerical models (analagous to the SKFPP equation above) to experimental data. I showed that by utilizing a data collapse I observed numerically, I could fit new experimental parameters to unprecedented levels of accuracy and predict the dynamics of an arbitrary number of competing strains.
+In a [paper I wrote](https://www.biorxiv.org/content/early/2017/06/07/145631), I studied the evolutionary dynamics of many competing strains (colors) of *E. Coli* with differing expansion velocities. I applied both experimental and numerical techniques to investigate this problem and created a rigorous procedure to fit my numerical models (analogous to the SKFPP equation above) to experimental data. I showed that by utilizing a data collapse I observed numerically, I could fit new experimental parameters to unprecedented levels of accuracy and predict the dynamics of an arbitrary number of competing strains.
 
 ## Evolution on a Viscous Liquid's Surface
 
