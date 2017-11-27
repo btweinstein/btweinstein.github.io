@@ -34,7 +34,7 @@ Similar patterns can be seen in different geometries. In the below movie, I agai
 
 Why do these patterns form? The *E. coli* in our experiments are not doing anything strange: they simply grow and divide at roughly the same rate. Ultimately, it can be shown that the patterns are created because the small population size of the thin growing layer at the front of the colony magnifies stochastic number fluctuations. 
 
-A layer of about 5 to 10 cells are actively growing at the front of the colony at any time. If, by chance, several red cell divides before others nearby, there is a good that the red cells will take over if the local population size is small. A standard mathematical model to describe two competing strains (i.e. the red and blue color) in a colony is the "Stochastic Fisher-Kolmogorov-Petrovsky-Piscounov" (FKPP) equation and can be expressed as
+A layer of about 5 to 10 cells are actively growing at the front of the colony at any time. If, by chance, several red cells divide before others nearby, there is a good chance that the red cells will take over if the local population size is small. A standard mathematical model to describe two competing strains (i.e. the red and blue color) in a colony is the "Stochastic Fisher-Kolmogorov-Petrovsky-Piscounov" (FKPP) equation and can be expressed as
 
 $$ \frac{\partial}{\partial t} f(\vec{x},t) = D \nabla^2 f(\vec{x},t) + sf(1-f) + \sqrt{\frac{f(1-f)}{N}} \zeta(\vec{x}, t)$$
 
@@ -42,7 +42,7 @@ $$f$$ is the population density of one of the two strains and is a function of s
 
 $$\langle \zeta(\vec{x},t) \zeta(\vec{x}',t') \rangle = \delta(\vec{x} - \vec{x}') \delta(t - t')$$
 
-As $$N$$ decreases, i.e. the growing colony layer becomes more thin, the stochastic term on the far right becomes larger and larger. If stochastic term on the far right is large, fluctuations in the local population density of a certain strain color will be large, and the absorbing points $$f=0$$ or $$f=1$$ will be randomly reached, resulting in the total dominance or extinction of a color locally. 
+As $$N$$ decreases, i.e. the growing colony layer becomes more thin, the stochastic term on the far right becomes larger and larger. If the stochastic term on the far right is large, fluctuations in the local population density of a certain strain color will be large, and the absorbing points $$f=0$$ or $$f=1$$ will be randomly reached, resulting in the total dominance or extinction of a color locally. 
 
 
 An image from a numerical simulation of the SKFPP equation that I created is shown below. Throughout my PhD, I used this equation and various analogs to simulate my experiments; my simulation GitHub repositories can seen in the [Scientific Computing](/computation/scientific_computing) page. The SKFPP equation is trickier to work with than typical stochastic differential equations because of the *spatial diffusion* term ($$D$$); the local growth and competition between the strains is coupled with their diffusive transport. 
